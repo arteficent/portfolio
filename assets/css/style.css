@@ -299,14 +299,14 @@ section {
   margin-bottom: 20px;
   padding-bottom: 20px;
   position: relative;
-  color: #173b6c;
+  color: #040b14;
 }
 
 .section-title h2::after {
   content: '';
   position: absolute;
   display: block;
-  width: 50px;
+  width: 100px;
   height: 3px;
   background: #dc143c;
   bottom: 0;
