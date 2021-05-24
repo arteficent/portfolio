@@ -302,7 +302,7 @@ section {
   color: #040b14;
 }
 
-.section-title h2::after {
+/* .section-title h2::after {
   content: '';
   position: relative;
   display: block;
@@ -311,7 +311,7 @@ section {
   background: #dc143c;
   bottom: 0;
   left: 0;
-}
+} */
 
 .section-title p {
   margin-bottom: 0;
@@ -352,10 +352,21 @@ section {
   margin-bottom: 0;
 }
 
+.section-about h2::after {
+  content: '';
+  position: relative;
+  display: block;
+  width: 95px;
+  height: 3px;
+  background: #dc143c;
+  bottom: 0;
+  left: 0;
+}
+
 /*--------------------------------------------------------------
 # Facts
 --------------------------------------------------------------*/
-.facts {
+/* .facts {
   padding-bottom: 30px;
 }
 
@@ -403,6 +414,17 @@ section {
   color: #dc143c;
 }
 
+.section-facts h2::after {
+  content: '';
+  position: relative;
+  display: block;
+  width: 100px;
+  height: 3px;
+  background: #dc143c;
+  bottom: 0;
+  left: 0;
+} */
+
 /*--------------------------------------------------------------
 # Skills
 --------------------------------------------------------------*/
@@ -438,6 +460,17 @@ section {
   height: 10px;
   transition: .9s;
   background-color: #dc143c;
+}
+
+.section-skills h2::after {
+  content: '';
+  position: relative;
+  display: block;
+  width: 82px;
+  height: 3px;
+  background: #dc143c;
+  bottom: 0;
+  left: 0;
 }
 
 /*--------------------------------------------------------------
@@ -499,6 +532,17 @@ section {
   top: 0;
   background: #fff;
   border: 2px solid #dc143c;
+}
+
+.section-resume h2::after {
+  content: '';
+  position: relative;
+  display: block;
+  width: 126px;
+  height: 3px;
+  background: #dc143c;
+  bottom: 0;
+  left: 0;
 }
 
 /*--------------------------------------------------------------
@@ -600,11 +644,21 @@ section {
   opacity: 1;
   bottom: 0;
 }
+.section-portfolio h2::after {
+  content: '';
+  position: relative;
+  display: block;
+  width: 132px;
+  height: 3px;
+  background: #dc143c;
+  bottom: 0;
+  left: 0;
+}
 
 /*--------------------------------------------------------------
 # Portfolio Details
 --------------------------------------------------------------*/
-.portfolio-details {
+/* .portfolio-details {
   padding-top: 40px;
 }
 
@@ -664,12 +718,12 @@ section {
 
 .portfolio-details .portfolio-description p {
   padding: 0;
-}
+} */
 
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
-.services .icon-box {
+/* .services .icon-box {
   margin-bottom: 20px;
 }
 
@@ -721,10 +775,21 @@ section {
   font-size: 14px;
 }
 
+.section-services h2::after {
+  content: '';
+  position: relative;
+  display: block;
+  width: 100px;
+  height: 3px;
+  background: #dc143c;
+  bottom: 0;
+  left: 0;
+} */
+
 /*--------------------------------------------------------------
 # Testimonials
 --------------------------------------------------------------*/
-.testimonials .testimonial-item {
+/* .testimonials .testimonial-item {
   box-sizing: content-box;
   text-align: center;
   min-height: 320px;
@@ -806,6 +871,17 @@ section {
 .testimonials .swiper-pagination .swiper-pagination-bullet-active {
   background-color: #149ddd;
 }
+
+.section-testimonials h2::after {
+  content: '';
+  position: relative;
+  display: block;
+  width: 100px;
+  height: 3px;
+  background: #dc143c;
+  bottom: 0;
+  left: 0;
+} */
 
 /*--------------------------------------------------------------
 # Contact
@@ -995,6 +1071,17 @@ section {
   100% {
     transform: rotate(360deg);
   }
+}
+
+.section-contact h2::after {
+  content: '';
+  position: relative;
+  display: block;
+  width: 123px;
+  height: 3px;
+  background: #dc143c;
+  bottom: 0;
+  left: 0;
 }
 
 /*--------------------------------------------------------------
